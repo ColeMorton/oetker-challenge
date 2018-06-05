@@ -1,0 +1,23 @@
+.nav-bar {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.nav-tab {
+  font-size: 2em;
+  border: #000000 1px solid;
+  padding: 0.2em 0.5em;
+}
+
+.active {
+  color: #000000;
+  background-color: #ffffff;
+  border-bottom: #ffffff;
+  position: relative;
+  bottom: -1px;
+}
+
+.inactive {
+  color: #D1CAB7;
+  background-color: #464B59;
+}

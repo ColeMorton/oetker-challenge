@@ -1,0 +1,8 @@
+.archives__entry {
+  display: flex;
+}
+
+.archives__entry > *:not(:first-child) {
+  margin-left: 1em;
+  align-self: center;
+}

@@ -1,0 +1,29 @@
+{
+  "name": "oetker-challenge",
+  "version": "1.0.0",
+  "private": true,
+  "author": "Cole Morton",
+  "license": "MIT",
+  "scripts": {
+    "build": "node_modules/.bin/webpack --mode production",
+    "watch": "node_modules/.bin/webpack --watch --mode development"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^0.28.11",
+    "style-loader": "^0.21.0",
+    "url-loader": "^1.0.1",
+    "webpack": "^4.10.2",
+    "webpack-cli": "^3.0.1"
+  },
+  "dependencies": {
+    "react": "^16.4.0",
+    "react-dom": "^16.4.0",
+    "react-transition-group": "1.x"
+  }
+}

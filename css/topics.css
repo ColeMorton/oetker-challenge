@@ -1,0 +1,13 @@
+.topics-appear {
+  opacity: 0.01;
+}
+
+.topics-appear.topics-appear-active {
+  opacity: 1;
+  transition: opacity .5s ease-in;
+}
+
+.topic__posts {
+  margin-left: 1em;
+  color: #cbd3dc;
+}

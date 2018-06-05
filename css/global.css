@@ -1,0 +1,24 @@
+body {
+  margin: 0em;
+  font-size: 1rem;
+  font-family: sans-serif;
+}
+
+section {
+  background-color: #FFFFFF;
+  color: #000000;
+  border: #000000 1px solid;
+  font-size: 2em;
+  font-family: cursive;
+  padding: 1em 2em;
+}
+
+ul {
+  -webkit-padding-start: 0em;
+  -webkit-margin-before: 0em;
+  -webkit-margin-after: 0em;
+}
+
+li {
+  display: block;
+}
